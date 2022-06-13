@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- DEUTSCH -->
+
+<resources>
+
+    <string name="app_name">SmartNavi</string>
+    <string name="tx_01">Navigiere <b>schrittbasiert</b></string>
+    <string name="tx_03">Suche</string>
+    <string name="tx_04">Lade Route. Bitte warten&#8230;</string>
+    <string name="tx_05">Halte das Gerät stets <b>vor deinen Körper</b></string>
+    <string name="tx_06">SmartNavi konnte keine Startposition bestimmen.\nBitte aktiviere eine Internetverbindung oder GPS und starte SmartNavi neu.\nBei Problemen helfen wir Dir gerne unter: info@smartnavi.app</string>
+    <string name="tx_07">SmartNavi ist OpenSource und bietet\nschrittbasierte und GPS unabhängige Navigation.</string>
+    <string name="tx_08"><u>Funktionsweise:</u></string>
+    <string name="tx_09">Anregungen sind immer willkommen:\ninfo@smartnavi.app</string>
+    <string name="tx_10">Bitte gib deine Körpergröße ein, damit deine Schrittlänge bestimmt werden kann.</string>
+
+
+    <string name="tx_12">Halte lange auf der Karte gedrückt um zusätzliche Funktionen zu bekommen.So kannst du z.B. deinen eigenen Standort exakt setzen.</string>
+    <string name="tx_13">Körpergröße eingeben</string>
+    <string name="tx_14">Fast fertig!\n\nSetze SmartNavi als <b>App für simulierte Standorte</b> in den Entwickleroptionen.</string>
+    <string name="tx_15">Einstellungen</string>
+    <string name="tx_18">Gedrückt halten</string>
+    <string name="tx_19">Mehr Informationen unter:\nhttps://smartnavi.app</string>
+
+
+    <string name="tx_21">So einfach</string>
+    <string name="tx_22">&#160;geht´s</string>
+    <string name="tx_24">Kein Ergebnis. Internet-Verbindung prüfen und nochmal versuchen.</string>
+    <string name="tx_25">deaktiviert</string>
+    <string name="tx_30">Kann keine Routeninformationen abrufen. Bitte später erneut versuchen.</string>
+
+
+    <string name="tx_31">SmartNavi scheint Dir zu gefallen. \nDurch eine Bewertung würdest Du uns sehr unterstützen! :)</string>
+    <string name="tx_32">Ungültiger Wert.</string>
+    <string name="tx_33">Start</string>
+    <string name="tx_34">Bewerte SmartNavi</string>
+    <string name="tx_35">Abbrechen</string>
+    <string name="tx_36">Einstellungen</string>
+    <string name="tx_38">OK</string>
+    <string name="tx_39">Nicht jetzt</string>
+    <string name="tx_40">Jetzt im PlayStore bewerten</string>
+	
+	
+	<string name="tx_41">Die App erkennt Schritte durch Auswertung von Beschleunigungs- und Magnetfeld-Sensoren. 
+	    Jeder Schritt verändert die Position in die entsprechende Richtung. Eingebaute Fehlerkorrekturen sorgen für dauerhafte Genauigkeit. 
+	    Zur Bestimmung der StartPosition wird GPS oder W-LAN- bzw. Mobilfunk-Ortung genutzt. Durch die Nutzung interner Sensoren kann somit im Vergleich zur GPS-Navigation eine Menge Energie und 
+	    somit Akkulaufzeit gespart werden.</string>
+    <string name="tx_43">Leider verfügt dein Gerät über keinen Magnetfeld-Sensor (Kompass). Ohne diesen kann SmartNavi nicht funktionieren.\n\nMehr Informationen unter:\nhttps://smartnavi-app.com\n</string>
+    <string name="tx_44">Einstellungen anpassen:</string>
+    <string name="tx_47">Bitte überprüfe deine Internetverbindung.</string>
+    <string name="tx_49">Achtung! Bitte aktivieren Sie GPS!</string>
+    <string name="tx_50">Tutorial</string>
+
+
+    <string name="tx_51">Körpergröße einstellen</string>
+    <string name="tx_52">Aus deiner Körpergröße wird die Schrittlänge berechnet</string>
+    <string name="tx_54">Allgemein</string>
+    <string name="tx_55">Vibration</string>
+    <string name="tx_56">Satelliten-Ansicht</string>
+    <string name="tx_57">Sprachausgabe</string>
+    <string name="tx_58">Vibration bei nächstem Navigationshinweis.</string>
+    <string name="tx_59">Exportiert deinen Weg in eine GPX-Datei auf die SD-Karte</string>
+    <string name="tx_60">Exportiere Strecke</string>
+
+
+    <string name="tx_63">Autokorrektur</string>
+    <string name="tx_64">Hintergrunddienst</string>
+    <string name="tx_65">Info</string>
+    <string name="tx_66">Autokorrektur mit GPS</string>
+    <string name="tx_67">SmartNavi kann Positionen für andere Apps bereitstellen.</string>
+    <string name="tx_68">Nutze diese Funktion, um auch mit anderen Apps schrittbasiert und energiesparend zu navigieren.</string>
+    <string name="tx_69">Beende Hintergrunddienst</string>
+    <string name="tx_70">Hintergrunddienst beendet.</string>
+
+
+    <string name="tx_71">Sonstiges</string>
+    <string name="tx_72">SmartNavi läuft im Hintergrund</string>
+    <string name="tx_73">Positionen werden bereitgestellt</string>
+    <string name="tx_74">Starte Hintergrunddienst</string>
+    <string name="tx_75">Hohe Akkulebensdauer</string>
+    <string name="tx_76">Ausgewogen</string>
+    <string name="tx_77">Ihre Suchanfrage konnte leider keine Ergebnisse liefern.</string>
+    <string name="tx_80">Hohe Genauigkeit</string>
+
+    <string name="tx_81">Erlaube GPS um eine bessere Startposition zu erhalten.\nNach der ersten Position arbeitet SmartNavi unabhängig von GPS! :)</string>
+    <string name="tx_82">Bestimmung der Startposition gestoppt.</string>
+    <string name="tx_84">Für Navigations-Anweisungen</string>
+    <string name="tx_85">Korrigiert deine Position regelmäßig durch GPS</string>
+    <string name="tx_88">GPX-Datei wird in Ordner \"smartnavi\" geschrieben.</string>
+    <string name="tx_90">Offline Karten</string>
+
+    <string name="tx_94">Willkommen!</string>
+    <string name="tx_95">SmartNavi erkennt deine <b>Schritte</b> mittels Smartphone Sensoren</string>
+    <string name="tx_96">Werde <b>unabhängig</b> von <b>GPS</b> und spare bis zu 80% Akku</string>
+    <string name="tx_97">SmartNavi ist Open Source und respektiert deine Privatsphäre</string>
+    <string name="tx_98">Weiter</string>
+    <string name="tx_100">SmartNavi benötigt Rechte zur Standortbestimmung.</string>
+
+    <string name="tx_101">SmartNavi benötigt Rechte um Kartenmaterial zu speichern.</string>
+    <string name="tx_102">Privacy Policy \nhttps://smartnavi.app/privacy</string>
+    <string name="tx_103">Ein Fehler ist aufgetreten.</string>
+    <string name="tx_104">Enable Developer Options</string>
+    <string name="tx_105">Um fortzufahren müssen die Entwickleroptionen eingeschaltet sein.\n\n<b>Tippe dazu 7 mal</b> auf die <b>Build Number</b> unter Einstellungen.\n\nAuf manchen Geräten befindet sich die <b>Build Number</b> unter Software Information.\n\nDann komm zurück und schließe die Einrichtung ab.</string>
+
+
+    <string-array name="possetzen">
+        <item>Standort setzen</item>
+        <item>Ziel setzen</item>
+    </string-array>
+
+
+</resources>

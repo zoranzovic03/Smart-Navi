@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias ''
+            keyPassword ''
+            storeFile file('')
+            storePassword ''
+        }
+        configdebug {
+            keyAlias ''
+            keyPassword ''
+            storeFile file('')
+            storePassword ''
+        }
+    }
+    compileSdkVersion 29
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        applicationId 'com.ilm.sandwich'
+        signingConfig signingConfigs.configdebug
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            buildConfigField 'Boolean', 'debug', 'false'
+            signingConfig signingConfigs.configdebug
+        }
+        debug {
+            minifyEnabled false
+            buildConfigField 'Boolean', 'debug', 'true'
+            signingConfig signingConfigs.configdebug
+        }
+    }
+    repositories {
+        maven { url "https://maven.google.com/" }
+        maven { url 'http://guardian.github.com/maven/repo-releases' }
+        mavenCentral()
+        google()
+        jcenter()
+    }
+    lintOptions {
+        abortOnError false
+    }
+    productFlavors {
+    }
+}
+
+repositories {
+    mavenCentral()
+    google()
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-crashlytics:17.2.2'
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    implementation 'com.google.firebase:firebase-core:17.5.0'
+    implementation 'com.google.firebase:firebase-config:19.2.0'
+    implementation 'com.google.android.gms:play-services-location:17.1.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.libraries.places:places:2.4.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.media:media:1.2.0'
+    implementation 'androidx.core:core:1.3.2'
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'com.google.android.material:material:1.2.1'
+
+}
+
+apply plugin: 'com.google.gms.google-services'
